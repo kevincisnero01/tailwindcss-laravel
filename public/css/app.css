@@ -3128,6 +3128,12 @@ textarea.form-control.is-invalid {
 .mt-0 {
   margin-top: 0px;
 }
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.mr-1 {
+  margin-right: 0.25rem;
+}
 .block {
   display: block;
 }
@@ -3148,6 +3154,9 @@ textarea.form-control.is-invalid {
 }
 .h-full {
   height: 100%;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .w-full {
   width: 100%;
@@ -3215,6 +3224,13 @@ textarea.form-control.is-invalid {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.p-8 {
+  padding: 2rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -3238,12 +3254,20 @@ textarea.form-control.is-invalid {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
 .leading-none {
   line-height: 1;
 }
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 .shadow-lg {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -3286,9 +3310,17 @@ textarea.form-control.is-invalid {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
+.hover\:text-gray-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
 .focus\:text-gray-700:focus {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+.focus\:text-gray-900:focus {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
 
@@ -3297,6 +3329,10 @@ textarea.form-control.is-invalid {
   }
 }
 @media (min-width: 1024px) {
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
 
   .lg\:hidden {
     display: none;
