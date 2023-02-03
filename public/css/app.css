@@ -3136,17 +3136,11 @@ textarea.form-control.is-invalid {
 .col-start-2 {
   grid-column-start: 2;
 }
-.col-start-7 {
-  grid-column-start: 7;
-}
 .col-start-4 {
   grid-column-start: 4;
 }
 .col-start-3 {
   grid-column-start: 3;
-}
-.col-start-5 {
-  grid-column-start: 5;
 }
 .row-span-2 {
   grid-row: span 2 / span 2;
@@ -3181,6 +3175,15 @@ textarea.form-control.is-invalid {
 .mt-0 {
   margin-top: 0px;
 }
+.mt-8 {
+  margin-top: 2rem;
+}
+.box-border {
+  box-sizing: border-box;
+}
+.box-content {
+  box-sizing: content-box;
+}
 .block {
   display: block;
 }
@@ -3202,6 +3205,9 @@ textarea.form-control.is-invalid {
 .h-full {
   height: 100%;
 }
+.h-32 {
+  height: 8rem;
+}
 .min-h-screen {
   min-height: 100vh;
 }
@@ -3213,6 +3219,9 @@ textarea.form-control.is-invalid {
 }
 .w-2 {
   width: 0.5rem;
+}
+.w-32 {
+  width: 8rem;
 }
 .grow {
   flex-grow: 1;
@@ -3231,9 +3240,6 @@ textarea.form-control.is-invalid {
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 .grid-rows-3 {
   grid-template-rows: repeat(3, minmax(0, 1fr));
@@ -3278,11 +3284,17 @@ textarea.form-control.is-invalid {
 .whitespace-nowrap {
   white-space: nowrap;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .border {
   border-width: 1px;
 }
 .border-0 {
   border-width: 0px;
+}
+.border-4 {
+  border-width: 4px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -3290,6 +3302,10 @@ textarea.form-control.is-invalid {
 .border-gray-200 {
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
+}
+.border-gray-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(75 85 99 / var(--tw-border-opacity));
 }
 .bg-gray-100 {
   --tw-bg-opacity: 1;
@@ -3338,8 +3354,15 @@ textarea.form-control.is-invalid {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
 .p-8 {
   padding: 2rem;
+}
+.p-4 {
+  padding: 1rem;
 }
 .py-4 {
   padding-top: 1rem;

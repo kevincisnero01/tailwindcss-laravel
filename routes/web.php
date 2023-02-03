@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 
 Route::view('grid','exercises.grid')->name('grid');
+Route::view('layouts','exercises.layouts')->name('layouts');
+
