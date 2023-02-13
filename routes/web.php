@@ -20,4 +20,6 @@ Route::get('/', function () {
 
 Route::view('grid','exercises.grid')->name('grid');
 Route::view('layouts','exercises.layouts')->name('layouts');
+Route::view('layouts/box-sizing','layouts.box-sizing')->name('box-sizing');
+
 
